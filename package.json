@@ -1,0 +1,26 @@
+{
+  "name": "nuxt-basic-template-v1",
+  "description": "",
+  "author": "Minami Ueda",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "generate": "nuxt generate",
+    "start": "nuxt start"
+  },
+  "dependencies": {
+    "@contentful/rich-text-html-renderer": "^14.1.2",
+    "@contentful/rich-text-plain-text-renderer": "^14.1.2",
+    "@nuxtjs/dayjs": "^1.2.1",
+    "@nuxtjs/style-resources": "^1.0.0",
+    "contentful": "^7.14.14",
+    "nuxt": "^2.14.7"
+  },
+  "devDependencies": {
+    "@nuxtjs/dotenv": "^1.4.1",
+    "@nuxtjs/moment": "^1.6.1",
+    "sass": "^1.29.0",
+    "sass-loader": "^10.1.0"
+  }
+}
