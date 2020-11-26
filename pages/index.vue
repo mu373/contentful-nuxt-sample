@@ -32,7 +32,7 @@ export default {
         return Promise.all([
             client.getEntries( {
                 'content_type': 'news',
-                limit: 2,
+                // limit: 2,
             })
         ]).then( (res) => {
             return {
