@@ -3,7 +3,7 @@
 ## Environments
 - CMS: Contentful
 - Hosting: Netlify
-- Frondend framework: Nuxt.js
+- Frontend framework: Nuxt.js
 
 ## Building on Netlify
 - Set Environment variables on Netlify
