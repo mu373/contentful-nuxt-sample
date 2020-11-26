@@ -3,7 +3,9 @@
         <div class="newsContainer">
             <div class="newsItem" v-for="post in posts">
                 <div class="newsHeader">
+                    <nuxt-link :to="`/posts/${post.fields.slug}`">
                         <h2>{{ post.fields.title }}</h2>
+                    </nuxt-link>
                     <p>{{ $dayjs(post.fields.date).format('YYYY/MM/DD (ddd) HH:mm')}}</p>
                 </div><!-- /.newsHeader -->
                 <!-- <div class="newsMainText" v-html="toHtmlString(post.fields.body)"></div> -->
