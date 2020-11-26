@@ -1,0 +1,36 @@
+@import "_simplegrid.scss";
+
+body {
+    font-family: sans-serif;
+}
+
+p {
+    padding-bottom: 1em;
+}
+
+a, a:visited {
+    text-decoration: none;
+    color: #0074D9;
+}
+
+.wrapper {
+    width: 800px;
+    margin: 0 auto;
+}
+
+.newsContainer {
+    padding: 50px 0;
+    .newsItem {
+        .newsHeader {
+        }
+        padding: 30px 0;
+        border-bottom: 1px solid #dedede;
+        &:first-child {
+            border-top: 1px solid #dedede;
+        }
+    }
+}
+
+h3 {
+    border-bottom: 1px solid black;
+}
